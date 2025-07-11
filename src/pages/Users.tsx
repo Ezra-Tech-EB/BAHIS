@@ -114,7 +114,7 @@ const Users: React.FC = () => {
         return <Badge variant="danger">Admin</Badge>;
       case 'director':
         return <Badge variant="warning">Director</Badge>;
-         case 'Coordinator':
+         case 'coordinator':
         return <Badge variant="warning">Coordinator</Badge>;
       case 'inspector':
       case 'inspector':
