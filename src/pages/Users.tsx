@@ -83,7 +83,7 @@ const Users: React.FC = () => {
     {
       id: '5',
       name: 'Sarah Johnson',
-      email: 'sarahmitchell@bahfsabahamas.com',
+      email: 'sarahjohnson@bahfsabahamas.com',
       phone: '(242) 555-0654',
       role: 'lab_technician',
       status: 'active',
