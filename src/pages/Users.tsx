@@ -52,7 +52,7 @@ const Users: React.FC = () => {
       inspectionsCount: 42,
       joinDate: '2023-05-20',
       department: 'Plant Protection',
-      location: 'Freeport'
+      location: 'Nassau'
     },
     {
       id: '3',
@@ -78,7 +78,7 @@ const Users: React.FC = () => {
       inspectionsCount: 35,
       joinDate: '2023-08-05',
       department: 'Plant Protection',
-      location: 'Andros'
+      location: 'Freeport'
     },
     {
       id: '5',
