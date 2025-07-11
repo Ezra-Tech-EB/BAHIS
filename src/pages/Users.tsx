@@ -112,8 +112,11 @@ const Users: React.FC = () => {
     switch (role) {
       case 'admin':
         return <Badge variant="danger">Admin</Badge>;
-      case 'supervisor':
-        return <Badge variant="warning">Supervisor</Badge>;
+      case 'director':
+        return <Badge variant="warning">Director</Badge>;
+         case 'Coordinator':
+        return <Badge variant="warning">Coordinator</Badge>;
+      case 'inspector':
       case 'inspector':
         return <Badge variant="info">Inspector</Badge>;
       case 'lab_technician':
