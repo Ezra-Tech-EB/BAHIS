@@ -9,8 +9,13 @@ import NewImportInspection from './pages/NewImportInspection';
 import FarmInspections from './pages/FarmInspections';
 import NewFarmInspection from './pages/NewFarmInspection';
 import PestSurveillance from './pages/PestSurveillance';
+import NewPestSurveillance from './pages/NewPestSurveillance';
 import PublicBooking from './pages/PublicBooking';
 import Bookings from './pages/Bookings';
+import Reports from './pages/Reports';
+import Analytics from './pages/Analytics';
+import Users from './pages/Users';
+import Settings from './pages/Settings';
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user, loading } = useAuth();
@@ -50,11 +55,12 @@ function App() {
                   <Route path="/farm-inspections" element={<FarmInspections />} />
                   <Route path="/farm-inspections/new" element={<NewFarmInspection />} />
                   <Route path="/pest-surveillance" element={<PestSurveillance />} />
+                  <Route path="/pest-surveillance/new" element={<NewPestSurveillance />} />
                   <Route path="/bookings" element={<Bookings />} />
-                  <Route path="/reports" element={<div className="p-6">Reports - Payment required </div>} />
-                  <Route path="/analytics" element={<div className="p-6">Analytics - Payment required</div>} />
-                  <Route path="/users" element={<div className="p-6">User Management - Payment required</div>} />
-                  <Route path="/settings" element={<div className="p-6">Settings - Payment required</div>} />
+                  <Route path="/reports" element={<Reports />} />
+                  <Route path="/analytics" element={<Analytics />} />
+                  <Route path="/users" element={<Users />} />
+                  <Route path="/settings" element={<Settings />} />
                   <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
               </Layout>
