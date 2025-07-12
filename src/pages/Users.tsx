@@ -430,7 +430,7 @@ const Users: React.FC = () => {
               <CheckCircle className="w-5 h-5 text-green-600 mr-3" />
               <div>
                 <p className="text-sm font-medium text-green-900">New user registered</p>
-                <p className="text-xs text-green-700">John Smith joined as Inspector</p>
+                <p className="text-xs text-green-700">Vinesa Sawyer joined as Inspector</p>
               </div>
             </div>
             <span className="text-xs text-green-600">2 hours ago</span>
@@ -441,7 +441,7 @@ const Users: React.FC = () => {
               <Activity className="w-5 h-5 text-blue-600 mr-3" />
               <div>
                 <p className="text-sm font-medium text-blue-900">User role updated</p>
-                <p className="text-xs text-blue-700">Yasmin Johnson promoted to Supervisor</p>
+                <p className="text-xs text-blue-700">Sarah Johnosn promoted to Lab Technician</p>
               </div>
             </div>
             <span className="text-xs text-blue-600">1 day ago</span>
