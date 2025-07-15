@@ -350,7 +350,7 @@ const NewImportInspection: React.FC = () => {
                 className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
               />
               <label className="ml-3 text-sm text-gray-700">
-                Pest Inspection Completed
+                Visual Inspection Completed
               </label>
             </div>
 
@@ -361,7 +361,7 @@ const NewImportInspection: React.FC = () => {
                 className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
               />
               <label className="ml-3 text-sm text-gray-700">
-                All Documentation Complete
+                Consignment meets phytosanitary requirements
               </label>
             </div>
 
@@ -372,7 +372,7 @@ const NewImportInspection: React.FC = () => {
                 className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
               />
               <label className="ml-3 text-sm text-gray-700">
-                Quarantine Required
+                Non-compliance - Phytosanitary Actions Required
               </label>
             </div>
           </div>
