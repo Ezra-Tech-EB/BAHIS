@@ -84,8 +84,7 @@ const NewFarmInspection: React.FC = () => {
   ];
 
   const pestOptions = [
-    'Fruit Fly', 'Aphids', 'Scale Insects', 'Whitefly', 'Thrips', 'Spider Mites',
-    'Caterpillars', 'Beetles', 'Nematodes', 'Fungal Diseases', 'Bacterial Diseases',
+    'Fruit Fly', 'Aphids', 'Scale Insects', 'Mealybugs', 'Whitefly', 'Thrips', 'Spider Mites', 'Caterpillars', 'Beetles', 'Nematodes', 'Fungal Diseases', 'Bacterial Diseases',
     'Viral Diseases', 'Weeds', 'Others'
   ];
 
