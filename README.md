@@ -1,2 +1,2 @@
 # BAHIS
-This is a demon of Caribbean Agroicultuyral Health Inspction System (CAHIS) for the Bahamasd (BAHIS)
+This is a demo of Caribbean Agroicultuyral Health Inspction System (CAHIS) for the Bahamasd (BAHIS)
