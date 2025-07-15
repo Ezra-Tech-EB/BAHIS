@@ -116,7 +116,7 @@ const ImportInspections: React.FC = () => {
               <option value="all">All Status</option>
               <option value="pending">Pending</option>
               <option value="approved">Approved</option>
-              <option value="quarantine">Quarantine</option>
+              <option value="detained">Detained</option>
               <option value="rejected">Rejected</option>
             </select>
             <Button variant="secondary" icon={Filter}>Filter</Button>
