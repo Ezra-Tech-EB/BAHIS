@@ -361,7 +361,7 @@ const NewImportInspection: React.FC = () => {
                 className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
               />
               <label className="ml-3 text-sm text-gray-700">
-                Consignment meets phytosanitary requirements
+                Consignment Meets Phytosanitary Requirements
               </label>
             </div>
 
