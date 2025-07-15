@@ -32,7 +32,7 @@ const ImportInspections: React.FC = () => {
       status: 'detained',
       inspector: 'Ezra Bartholomew',
     },
-        {
+    {
       id: '2',
       reference: 'IMP-2025-003',
       date: '2025-04-16',
