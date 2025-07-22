@@ -13,8 +13,6 @@ import {
   Settings, 
   LogOut,
   Bell,
-  ChevronLeft,
-  ChevronRight,
   User,
   Calendar
 } from 'lucide-react';
@@ -228,11 +226,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             className="hidden lg:block -m-2.5 p-2.5 text-gray-700 hover:text-gray-900"
             onClick={toggleSidebar}
           >
-            {sidebarCollapsed ? (
-              <ChevronRight className="h-5 w-5" />
-            ) : (
-              <ChevronLeft className="h-5 w-5" />
-            )}
+            <Menu className="h-5 w-5" />
           </button>
 
           <div className="flex flex-1 gap-x-4 self-stretch lg:gap-x-6">
