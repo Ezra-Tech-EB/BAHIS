@@ -31,7 +31,7 @@ const Users: React.FC = () => {
     {
       id: '1',
       name: 'Vinesa Sawyer',
-      email: 'vinesasawyer@bahfsabahamas.com',
+      email: 'vinesasawyer@bahfsa.gov.bs',
       phone: '(242) 555-0123',
       role: 'inspector',
       status: 'active',
@@ -44,7 +44,7 @@ const Users: React.FC = () => {
     {
       id: '2',
       name: 'Ezra Bartholomew',
-      email: 'ezrabartholomew@bahfsabahamas.com',
+      email: 'ezrabartholomew@bahfsa.gov.bs',
       phone: '(242) 555-0456',
       role: 'coordinator',
       status: 'active',
@@ -57,7 +57,7 @@ const Users: React.FC = () => {
     {
       id: '3',
       name: 'Yasmin Johnson',
-      email: 'yasminjohnson@bahfsabahamas.com',
+      email: 'yasminjohnson@bahfsa.gov.bs',
       phone: '(242) 555-0789',
       role: 'director',
       status: 'active',
@@ -70,7 +70,7 @@ const Users: React.FC = () => {
     {
       id: '4',
       name: 'Tamico Nelson',
-      email: 'tamiconelson@bahfsabahamas.com',
+      email: 'tamiconelson@bahfsa.gov.bs',
       phone: '(242) 555-0321',
       role: 'coordinator',
       status: 'inactive',
@@ -83,7 +83,7 @@ const Users: React.FC = () => {
     {
       id: '5',
       name: 'Sarah Johnson',
-      email: 'sarahjohnson@bahfsabahamas.com',
+      email: 'sarahjohnson@bahfsa.gov.bs',
       phone: '(242) 555-0654',
       role: 'lab_technician',
       status: 'active',
