@@ -543,15 +543,15 @@ const Settings: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
           <div>
             <p className="text-gray-600">Version</p>
-            <p className="font-medium">BAHFSA v2.1.0</p>
+            <p className="font-medium">BAHFSA v1.1.0</p>
           </div>
           <div>
             <p className="text-gray-600">Last Updated</p>
-            <p className="font-medium">January 15, 2025</p>
+            <p className="font-medium">July 15, 2025</p>
           </div>
           <div>
             <p className="text-gray-600">Support</p>
-            <p className="font-medium">support@bahfsa.gov.bs</p>
+            <p className="font-medium">info@agro-tt.com</p>
           </div>
         </div>
       </Card>
